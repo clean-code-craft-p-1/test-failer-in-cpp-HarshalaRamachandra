@@ -81,6 +81,7 @@ namespace WeatherSpace
         // (function returns Sunny day, it should predict rain)
         string report = Report(sensor);
         assert(report.length() > 0);
+		assert(report.find("rain") != string::npos);
     }
 }
 
