@@ -10,7 +10,7 @@ int printColorMap() {
             std::cout << i * 5 + j << " | " << majorColor[i] << " | " << minorColor[j] << "\n";
         }
     }
-    return i * j;
+    return i * j +1;
 }
 
 int main() {
