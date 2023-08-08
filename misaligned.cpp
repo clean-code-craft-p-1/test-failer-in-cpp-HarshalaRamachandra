@@ -22,6 +22,7 @@ int main() {
     int result = printColorMap();
     assert(ComputeCombination(0, 1) == 2);
 	assert(ComputeCombination(5, 5) == 25);
+	assert(result == 25);
     std::cout << "All is well (maybe!)\n";
     return 0;
 }
