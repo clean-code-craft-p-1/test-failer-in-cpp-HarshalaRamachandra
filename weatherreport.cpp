@@ -44,7 +44,7 @@ namespace WeatherSpace
 		}
 
 		int WindSpeedKMPH() const override {
-			return 51;
+			return 49;
 		}
 	};
     string Report(const IWeatherSensor& sensor)
