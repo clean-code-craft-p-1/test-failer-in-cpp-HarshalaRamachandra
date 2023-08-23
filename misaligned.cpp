@@ -22,7 +22,7 @@ std::string getColorMap(const unsigned int majorColorIndex, const unsigned int m
     }
     else
     {
-        std::snprintf(buffer, bufferSize, "Incorrect pair number, majorColorIndex[%d], minorColorIndex[%d]", minorColorIndex, majorColorIndex, );
+        std::snprintf(buffer, bufferSize, "Incorrect pair number, majorColorIndex[%d], minorColorIndex[%d]", minorColorIndex, majorColorIndex);
     }
 
     return std::string(buffer);
